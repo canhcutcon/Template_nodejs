@@ -1,0 +1,43 @@
+{
+    "name": "encore-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "gulp watch"
+    },
+    "devDependencies": {
+        "babel-minify": "^0.5.1",
+        "browser-sync": "^2.26.7",
+        "es6-promise": "^4.2.8",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-csscomb": "^3.0.8",
+        "gulp-hbs": "^0.2.0",
+        "gulp-jsmin": "^0.1.5",
+        "gulp-livereload": "^4.0.2",
+        "gulp-merge-media-queries": "^0.2.1",
+        "gulp-minify": "^3.1.0",
+        "gulp-nodemon": "^2.5.0",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^5.0.0",
+        "gulp-uglify": "^3.0.2",
+        "node-sass": "^6.0.1",
+        "sass": "^1.37.5"
+    },
+    "dependencies": {
+        "@pnp/spfx-controls-react": "^3.4.0-beta.43a9662",
+        "esm": "^3.2.25",
+        "express": "^4.17.1",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-imagemin": "^8.0.0",
+        "gulp-uglify-es": "^2.0.0",
+        "hbs": "^4.1.2",
+        "path": "^0.12.7",
+        "request": "^2.88.2",
+        "uglify-js": "^3.14.1",
+        "uglifycss": "0.0.29"
+    }
+}
