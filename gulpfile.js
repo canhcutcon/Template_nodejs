@@ -40,7 +40,7 @@ gulp.task('scss', function() {
 gulp.task('server', function() {
     nodemon({
         script: './src/app.js',
-        ext: 'js'
+        ext: 'hbs js'
     });
 });
 
@@ -51,4 +51,6 @@ gulp.task('watch', function() {
     gulp.watch("./public/scss/**/*.scss").on("change", browserSync.reload);
     gulp.watch("./public/js/*.js").on("change", browserSync.reload);
     gulp.watch("./src/*.js").on("change", browserSync.reload);
+    gulp.watch("./template/views/*.hbs").on("change", browserSync.reload);
+    gulp.watch("./template/partical/*.hbs").on("change", browserSync.reload);
 })

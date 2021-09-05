@@ -1,0 +1,1 @@
+const items=document.querySelectorAll(".accordion button");function toggleAccordion(){var t=this.getAttribute("aria-expanded");for(i=0;i<items.length;i++)items[i].setAttribute("aria-expanded","false");"false"==t&&this.setAttribute("aria-expanded","true")}items.forEach(t=>t.addEventListener("click",toggleAccordion));
